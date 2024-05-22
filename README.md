@@ -34,6 +34,7 @@ project
 │   │   - main_take_images.ipynb 
 │   
 └─────
+```
 
 - `camera_roboter.py`: defines a class to control the robot, containing functions for motion planning and controlling the camera to capture images. <br /> 
 - `ueye_camera.py`: defines a class to control the camera, containing functions for video streaming and capturing images. <br /> 
