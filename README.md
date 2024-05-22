@@ -25,13 +25,12 @@ project
 │
 └───image
 └───src
-│   
-│   │   - camera_roboter.py  
-│   │   - data_manager.py  
-│   │   - label_manager.py 
-│   │   - ueye_camera.py 
-│   │   - main_split_images.ipynb
-│   │   - main_take_images.ipynb 
+│   - camera_roboter.py  
+│   - data_manager.py  
+│   - label_manager.py 
+│   - ueye_camera.py 
+│   - main_split_images.ipynb
+│   - main_take_images.ipynb 
 │   
 └─────
 ```
