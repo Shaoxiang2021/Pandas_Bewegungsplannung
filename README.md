@@ -18,31 +18,29 @@ To know more, please refer to the main.pdf paper.
 
 ## Software Structure
 
-Project  
-|  
-|------README.md  
-|------requirements.txt  
-|------main.pdf  
-|  
-|_____ image  
-|        
-|_____ src  
-|  
-|------camera_roboter.py  
-|------data_manager.py  
-|------label_manager.py  
-|------ueye_camera.py  
-|------main_split_images.ipynb  
-|------main_take_images.ipynb  
-|  
-  
-camera_roboter.py: defines a class to control the robot, containing functions for motion planning and controlling the camera to capture images.  
-ueye_camera.py: defines a class to control the camera, containing functions for video streaming and capturing images.  
-label_manager.py: defines a class to manage image names, containing functions to rename images when necessary.  
-data_manager.py: defines a class to split images and assign correct names, containing functions to split images into 3 sub-images with new names.  
-  
-main_take_images.ipynb: main code to generate images through robot motion planning.  
-main_split_images.ipynb: main code to split images.  
+```
+project
+│   README.md
+│   requirements.txt
+│
+└───image
+└───src
+│   
+│   │   - camera_roboter.py  
+│   │   - data_manager.py  
+│   │   - label_manager.py 
+│   │   - ueye_camera.py 
+│   │   - main_split_images.ipynb
+│   │   - main_take_images.ipynb 
+│   
+└─────
+
+- `camera_roboter.py`: defines a class to control the robot, containing functions for motion planning and controlling the camera to capture images. <br /> 
+- `ueye_camera.py`: defines a class to control the camera, containing functions for video streaming and capturing images. <br /> 
+- `label_manager.py`: defines a class to manage image names, containing functions to rename images when necessary. <br /> 
+- `data_manager.py`: defines a class to split images and assign correct names, containing functions to split images into 3 sub-images with new names. <br /> 
+- `main_take_images.ipynb`: main code to generate images through robot motion planning. <br /> 
+- `main_split_images.ipynb`: main code to split images.
 
 ## Requirements
 
