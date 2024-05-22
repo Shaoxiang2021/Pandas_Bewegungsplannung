@@ -51,4 +51,8 @@ Python Version 3.7
 Pyueye Version 4.96.952  
 OpenCV Version 4.8.0.76  
 
-## 
+
+
+
+## Authors
+Shaoxiang Tan (ge28kiw@tum.de)
